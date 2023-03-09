@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://lvs0lij8cu0j"]
+
+[ext_resource type="Theme" uid="uid://jsohxacortlx" path="res://theme.tres" id="1_7v2ig"]
+
+[node name="Panel" type="ColorRect"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -454.0
+offset_top = -366.0
+offset_right = 454.0
+offset_bottom = 366.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.733333, 0.384314, 0.14902, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme = ExtResource("1_7v2ig")
+text = "Enter server address:"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="TextEdit" type="TextEdit" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme = ExtResource("1_7v2ig")
+placeholder_text = "host:port"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("1_7v2ig")
+text = "Join"

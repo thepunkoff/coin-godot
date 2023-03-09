@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coin", "Coin.csproj", "{6B53A45B-A27A-44B4-829A-C29223CBA566}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{6B53A45B-A27A-44B4-829A-C29223CBA566}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0kbhchk15y8g"]
+
+[ext_resource type="Theme" uid="uid://8hchh1v5ygbs" path="res://card_theme.tres" id="1_i5iju"]
+
+[node name="Card" type="MarginContainer"]
+custom_minimum_size = Vector2(260, 350)
+offset_right = 260.0
+offset_bottom = 350.0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_right = 20
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+theme = ExtResource("1_i5iju")

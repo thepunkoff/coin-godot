@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.idea/
+.godot/
+android/
+export_presets.cfg
+*.apk
+*.idsig

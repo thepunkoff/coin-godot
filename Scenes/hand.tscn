@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlxyylggxqmhg"]
+
+[ext_resource type="PackedScene" uid="uid://b0kbhchk15y8g" path="res://Scenes/card.tscn" id="1_etk23"]
+
+[node name="MarginContainer" type="MarginContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 40
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+alignment = 1
+
+[node name="Card3" parent="ScrollContainer/HBoxContainer" instance=ExtResource("1_etk23")]
+layout_mode = 2
+
+[node name="Card4" parent="ScrollContainer/HBoxContainer" instance=ExtResource("1_etk23")]
+layout_mode = 2
+
+[node name="Card5" parent="ScrollContainer/HBoxContainer" instance=ExtResource("1_etk23")]
+layout_mode = 2
